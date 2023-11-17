@@ -1,0 +1,269 @@
+.button {
+    font-family: inherit;
+    overflow: hidden;
+    margin: 0 1rem;
+    padding: .8rem 2rem;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    border: 2px solid var(--color-primary);
+    border-radius: 50px;
+    position: relative;
+    transition: all 1s;
+
+    // & > a {
+    //   text-decoration: none;
+    //   padding: none;
+    // }
+  }
+  
+  .button-log::before {
+    position: absolute;
+    content: "";
+    background: var(--color-primary);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .button:hover {
+    color: #212121;
+  }
+  
+  .button:before {
+    top: 100%;
+    left: 100%;
+    transition: .4s all;
+  }
+  
+  .button:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+
+.button {
+
+    &-sign {
+        background-color: var(--color-primary);
+    }
+
+}
+.button:active {
+    background-color: teal;
+}
+
+//////////////////////////////////////
+/// 
+/// 
+.button1 {
+  padding: 0;
+  margin: 4rem 0;
+  border: none;
+  background: none;
+}
+
+.button1 {
+  position: relative;
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  gap: 0.5rem;
+  font-family: 'Open Sans';
+  align-items: center;
+}
+
+.button1 p {
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  color: var(--color-small-heading)
+}
+
+.button1::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: -7px;
+  background: var(--color-primary);
+  height: 2px;
+  transition: 0.3s ease-out;
+}
+
+.button1 p::before {
+  position: absolute;
+/*   box-sizing: border-box; */
+  content: "Subscribe";
+  width: 0%;
+  inset: 0;
+  color: var(--color-primary);
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+.button1:hover::after {
+  width: 100%;
+}
+
+.button1:hover p::before {
+  width: 100%;
+}
+
+.button1:hover svg {
+  transform: translateX(4px);
+  color: var(--color-primary)
+}
+
+.button1 svg {
+  color: var(--color-small-heading);
+  transition: 0.2s;
+  position: relative;
+  width: 15px;
+  transition-delay: 0.2s;
+}
+
+
+// .button-flex {
+//   display: flex;
+//   justify-content: center;
+
+// }
+
+
+.help-button {
+  position: relative;
+  margin-top: 7rem;
+  border-radius: 50px;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 1.7rem;
+  height: 5rem;
+  display: inline-block;
+  font-family: "Open Sans";
+  border: 1px solid var(--color-primary);
+  padding: 1.1rem 6rem 1rem 2rem;
+  overflow: hidden;
+  transition: all .4s;
+  color: var(--color-small-heading);
+
+  &__content {
+    display: inline-block;
+    padding: -1rem 0;
+  }
+
+  // &::after {
+  //   content: '\f061';
+  //   font-family: 'font awesome 5 pro';
+  // }
+
+  // &:hover {
+  //   color: #eee;
+  // }
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    background-color: var(--color-primary);
+    left: 0;
+    top: 0;
+    transition: all .4s;
+  }
+
+  &:hover::before {
+      width: 100%;
+      left: 100;
+  }
+
+  &:hover .help-svg {
+    transform: translateX(.4rem);
+  }
+}
+
+.help-svg {
+  position: absolute;
+  padding-left: 1rem;
+  font-weight: 700;
+  height: 1rem;
+  color: var(--color-primary);
+  display: inline;
+  top: .7rem;
+  transition: all .3s;
+
+  
+
+  &__m {
+    height: 3rem;
+    fill: #eee;
+  }
+}
+
+
+
+// .button {
+//     position: relative;
+//     margin: 0 1rem;
+//     padding: .8rem 2rem;
+//     background-color: transparent;
+//     border-radius: 50px;
+//     text-transform: uppercase;
+//     font-size: 1.2rem;
+//     color: white;
+//     overflow: hidden;
+//     cursor: pointer;
+
+//     &:hover {
+//         color: #212121;
+//     }
+
+//     &-log {
+//         border: 2px solid 219ebc;
+
+//         &:hover {
+//             background-color: blue;
+//             animation: toright .4s   ;
+//         }
+
+//         &:active {
+//             background: teal;
+//             border: 2px solid teal;
+//         }
+//     }
+
+//     &-sign {
+//         border: 0px;
+//         background-color: blue;
+//     }
+
+    
+
+//     &:active {
+//         background: teal;
+//     }
+// }
+
+// .button::before {
+//     content: '';
+//     position: absolute;
+//     width: 10rem;
+//     height: 10rem;
+//     z-index: -1;
+//     border-radius: 50px;
+//     top: 50%;
+//     left: 0%;
+//     transition: .3s all;
+    
+//     &:hover {
+//         transform: translateX(0);
+//         background-color: blue;
+//         left: 100%;
+//         top: 100%;
+        
+//     }
+// }

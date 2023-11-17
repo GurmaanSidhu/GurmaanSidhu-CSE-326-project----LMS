@@ -1,0 +1,30 @@
+**   Just download the file (16.6 mb)
+
+after the download, directly open it in a code editor (like - vs-code).
+The attachment of css, javascript, svg's and imgfiles are attached properly.
+
+**** you just have to run it on the web. ****
+
+						**
+
+
+
+
+
+
+********************************
+SUGGESTIONS
+1. Should have used sass variables instead of css, easy to use.
+2. If you have problem putting video on your website, copy my video element and use it (highly faced problem with it)
+
+
+******************************
+no virus -- free to use 
+
+
+
+
+-- You can use my code and designs in your website, the website is not copyrighted in any way
+ 	CARING IS SHARING :) 
+	stay tuned for more desgins
+	follow my newsletter 
