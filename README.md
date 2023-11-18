@@ -1,6 +1,8 @@
 # GurmaanSidhu-CSE-326-project----LMS
 this is a project for subject CSE--326 from LPU Univercity
 
+participants - Gurmaan, Ayushman, venkatesh
+
 directly download and start it on code editor > then directly run the html file > everything is in order
 
 
@@ -12,25 +14,8 @@ The attachment of css, javascript, svg's and imgfiles are attached properly.
 **** you just have to run it on the web. ****
 
 						**
-
-
-
-
-
-
-********************************
-SUGGESTIONS
-1. Should have used sass variables instead of css, easy to use.
-2. If you have problem putting video on your website, copy my video element and use it (highly faced problem with it)
-
+      would suggest using internet.
 
 ******************************
 no virus -- free to use 
 
-
-
-
--- You can use my code and designs in your website, the website is not copyrighted in any way
- 	CARING IS SHARING :) 
-	stay tuned for more desgins
-	follow my newsletter 
